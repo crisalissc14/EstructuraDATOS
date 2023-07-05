@@ -1,4 +1,18 @@
+'''class Deportes:
+
+    def __init__(self, nombre):
+        self.nombre = nombre
+
+    def __str__(self):
+        return(f"yo soy el deporte{self.nombre}")
+    
+class Baloncesto (Deportes):
+
+    def __init__(self, nombre):
+        super().__init__(nombre)'''
+        
 class Vehiculo:
+
     def __init__(self, marca, modelo):
         self.marca = marca
         self.modelo = modelo
